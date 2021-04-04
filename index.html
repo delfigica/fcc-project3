@@ -12,25 +12,29 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <head>
-      <nav class="nav">
+    <header id="header">
+ 
+      <nav id="nav-bar">
+              <img id="header-img" src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" alt="logotipe">  
         <ul class="nav-ul">
-          <li class="nav-li"><a href="#top"> Features</a></li>
-          <li class="nav-li"><a href="#works"> How It Works</a></li>
-          <li class="nav-li"><a href="#pricing"> Pricing</a></li>
+          <li class="nav-link"><a href="#top"> Features</a></li>
+          <li class="nav-link"><a href="#works"> How It Works</a></li>
+          <li class="nav-link"><a href="#pricing"> Pricing</a></li>
         </ul>
       </nav>
-    </head>
+    </header>
     <main>
       <div class="title-container">
         <h1 class="title">Handcrafted, home-made masterpieces</h1>
-        <input
+        <form id="form" action="">
+        <input id="email"
           class="title"
           type="email"
           placeholder="Enter your email address"
         />
         <br />
-        <input class="title" type="submit" value="Get Started" />
+        <a href="https://www.freecodecamp.com/email-submit"><button id="submit" class="title" type="submit" >Get Started</button></a>
+      </form>
       </div class="container-all-icons">
       <div id="works" class="icons-container">
         <div class="icon">
@@ -68,6 +72,10 @@
           </p>
         </div>
       </div>
+      <div class="video">
+      <iframe  width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <video id="video" src="#"></video>
       <div id="pricing" class="card-container">
         <div class="card">
           <div class="card-title">

@@ -5,21 +5,26 @@ body {
 ul {
     list-style-type: none;
 }
-.nav-li {
+.nav-link{
     display: inline-block;
     margin: 0px 70px;
-}
-.nav {
-    background-color: rgb(250, 250, 250);
-    padding: 5px;
     text-align: right;
+
+}
+#nav-bar {
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
     box-shadow:  0px 2px 5px -3px gray;
     position: fixed;
     top: 0;
     justify-content: space-around;
     width: 100%;
+    display: flex;
 }
-
+#header-img {
+    max-width: 350px;
+    text-align: left;
+}
 a {
     text-decoration: none;
     color: rgb(17, 16, 16);
@@ -33,14 +38,14 @@ a {
 .title {
     padding: 5px;
 }
-input[type="submit" i] {
+#submit {
     background-color: rgb(255, 145, 0);
     text-align: center;
     box-sizing: border-box;
     border: none;
     border-radius: 5px;
     width: 150px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 input[type="email" i]  {
     margin: 15px;
@@ -82,6 +87,13 @@ p {
     max-width: 700px;
 
 }
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+
 .card {
     width: calc(100% / 3);
     background-color: rgb(255, 255, 255);
@@ -128,7 +140,7 @@ button {
     font-size: 1em;
     margin-top: 20px;
 }
-button:hover, input[type="submit" i]:hover {
+button:hover, #submit:hover {
     background-color: rgb(250, 163, 49);
 }
 .li-footer {
